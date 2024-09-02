@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #20293b;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header-top {
+    background-color: #1E2A45;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+.name {
+    background-color: #1E2A45;
+    color: white;
+    font-size: 35px;
+    font-family: 'Copperplate';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 85px;
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #1E2A45;
+    font-weight: bold;
+}
+
+.contact-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.book-now {
+    background-color: #C63535;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info p {
+    margin: 0;
+    margin-right: 15px;
+}
+
+.service-button {
+    background-color: #c51d23;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.service-button:hover {
+    background-color: #a5151a;
+}
+
+.contact-info-body {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-column {
+    background-color: #18202d;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 300px;
+    text-align: left;
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.contact-item .icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-item p {
+    margin: 0;
+}
+
+.contact-item a {
+    color: #d4d4d4;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}

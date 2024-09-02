@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header-top {
+    background-color: #1E2A45;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+.name {
+    background-color: #1E2A45;
+    color: white;
+    font-size: 35px;
+    font-family: 'Copperplate';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 85px;
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #1E2A45;
+    font-weight: bold;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info p {
+    margin: 0;
+    margin-right: 15px;
+}
+
+.book-now {
+    background-color: #C63535;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.about-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #2c3e50;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.customer-benefits {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.customer-benefits img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.customer-benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.customer-benefits ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.customer-benefits ul li::before {
+    content: "✔️";
+    color: #c51d23;
+    margin-right: 10px;
+}
+
+.contact-button {
+    background-color: #c51d23;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #a5151a;
+}
