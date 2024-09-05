@@ -101,7 +101,7 @@ body {
 }
 
 .customer-benefits img {
-    width: 150px;
+    width: 230px;
     height: auto;
     border-radius: 50%;
     margin-right: 20px;
@@ -137,3 +137,87 @@ body {
 .contact-button:hover {
     background-color: #a5151a;
 }
+
+/* Footer Styles */
+.footer {
+    background-color: #1E2A45;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .footer-section h2 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .footer-section.social ul {
+    display: flex;
+    padding: 0;
+  }
+  
+  .footer-section.social ul li {
+    margin-right: 15px;
+  }
+  
+  .footer-section.social ul li a {
+    display: flex;
+    align-items: center;
+    color: #ccc;
+  }
+  
+  .footer-section.social ul li a:hover {
+    color: #fff;
+  }
